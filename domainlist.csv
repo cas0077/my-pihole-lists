@@ -1,21 +1,56 @@
 id,type,domain,enabled,date_added,date_modified,comment
-19,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1585426668,1608564394,
-20,3,^(.+[-_.])??ad[sxv]?[0-9]*[-_.],1,1585426668,1608564396,
-21,3,^(.+[-_.])??telemetry[-.],1,1585426668,1608564398,
-22,3,^(.+[-_.])??xn--,1,1585426668,1608564400,
-23,3,^adim(age|g)s?[0-9]*[-_.],1,1585426668,1608564401,
-24,3,^adtrack(er|ing)?[0-9]*[-.],1,1585426668,1608564403,
-25,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1585426668,1608564404,
-26,3,^aff(iliat(es?|ion))?[-.],1,1585426668,1608564405,
-27,3,^analytics?[-.],1,1585426668,1608564406,
-28,3,^banners?[-.],1,1585426668,1608564408,
-29,3,^beacons?[0-9]*[-.],1,1585426668,1608564427,
-30,3,^count(ers?)?[0-9]*[-.],1,1585426668,1608564421,
-31,3,^pixels?[-.],1,1585426668,1608564418,
-32,3,^stat(s|istics)?[0-9]*[-.],1,1585426668,1608564415,
-33,3,^track(ers?|ing)?[0-9]*[-.],1,1585426668,1608564413,
-34,3,^traff(ic)?[-.],1,1585426668,1608564412,
-35,3,^(ads|logs|cloudservices).roku.com$,1,1585426668,1608564411,
-36,0,track.shipstation.com,1,1586220825,1589684086,"USPS tracking"
-37,0,ib.huluim.com,1,1593787890,1593787985,"Hulu scrubbing thumbnails"
-43,2,^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$,1,1608398374,1608398374,"Fixes Google Meet buttons"
+2,0,www.ojrq.net,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+3,0,linksynergy.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+4,0,click.linksynergy.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+5,0,groupon.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+6,0,tracking.groupon.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+7,0,www.shareasale.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+8,0,link.n.convertkit.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+9,0,www.jdoqocy.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+10,0,cj.dotomi.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+11,0,www.emjcd.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+12,0,www.ukvoipforums.com,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+13,0,trackcmp.net,1,1599441215,1599441215,"Migrated from /etc/pihole/whitelist.txt"
+14,3,(^|\.)$,1,1599444351,1599444351,
+15,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1599446260,1599446260,
+16,3,^(.+[-_.])??m?ad[sxv]?[0-9]*[-_.],1,1599446261,1599446261,
+17,3,^(.+[-_.])??telemetry[-.],1,1599446281,1599446281,
+18,3,^(.+[-_.])??xn--,1,1599446281,1599446281,
+19,3,^adim(age|g)s?[0-9]*[-_.],1,1599446281,1599446281,
+20,3,^adtrack(er|ing)?[0-9]*[-.],1,1599446281,1599446281,
+21,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1599446281,1599446281,
+22,3,^aff(iliat(es?|ion))?[-.],1,1599446281,1599446281,
+23,3,^analytics?[-.],1,1599446281,1599446281,
+24,3,^banners?[-.],1,1599446281,1599446281,
+25,3,^beacons?[0-9]*[-.],1,1599446281,1599446281,
+26,3,^count(ers?)?[0-9]*[-.],1,1599446281,1599446281,
+27,3,^pixels?[-.],1,1599446281,1599446281,
+28,3,^stat(s|istics)?[0-9]*[-.],1,1599446281,1599446281,
+29,3,^track(ers?|ing)?[0-9]*[-.],1,1599446281,1599446281,
+30,3,^traff(ic)?[-.],1,1599446281,1599446281,
+31,3,.*\.g00\..*,1,1599446281,1599446281,
+32,3,(^|\.)loostnews\.biz$,1,1599446281,1599446281,
+34,2,(\.|^)avantlink\.com$,1,1600043017,1600043017,
+35,0,sdk.split.io,1,1600121716,1600121756,
+39,0,api.amplitude.com,1,1600122531,1601761341,
+47,0,scontent-dfw5-2.xx.fbcdn.net,0,1600123103,1600127098,
+48,0,external-dfw5-1.xx.fbcdn.net,0,1600123123,1600127100,
+49,0,survival.preguntados.etermax.com,1,1600123282,1600123288,
+50,0,beacons3.gvt2.com,1,1600127061,1600127076,
+51,2,inner-active.mobi,1,1600133794,1600133834,
+53,2,(\.|^)inner-active\.mobi$,1,1600134088,1600210709,
+55,2,(\.|^)appboy\.com$,1,1600134555,1600210410,
+56,2,(\.|^)appsflyer\.com$,1,1600134797,1600210708,
+57,2,(\.|^)amazon-adsystem\.com$,1,1600134921,1600210437,
+58,2,(\.|^)doubleclick\.net$,1,1600134979,1600210428,
+59,2,(\.|^)applovin\.com$,1,1600140999,1600210531,
+60,2,(\.|^)adcolony\.com$,1,1600141069,1600210408,
+61,2,(\.|^)supersonicads\.com$,1,1600141475,1600210705,
+62,2,(\.|^)googleadservices\.com$,1,1600141542,1600210699,
+63,2,(\.|^)mopub\.com$,1,1600141677,1600210705,
+67,2,(\.|^)newrelic\.com$,1,1600210453,1600210467,
+68,2,(\.|^)app-measurement\.com$,1,1600210550,1600210560,
+69,2,(\.|^)rayjump\.com$,1,1600210626,1600210635,
+70,2,(\.|^)adsafeprotected\.com$,1,1600210841,1600210851,
+71,2,(\.|^)moatads\.com$,1,1600210947,1600210958,
+88,2,(\.|^)cdn-settings\.segment\.com$,1,1600211569,1600211662,
